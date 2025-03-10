@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .todo-container {
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .todo-item input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>✅ To-Do List</h2>
+        <div class="todo-item"><input type="checkbox"> Poslati mail na ispravnu adresu</div>
+        <div class="todo-item"><input type="checkbox"> Stefan Stojanović – 54958 RSD (cifra se ne poklapa)</div>
+        <div class="todo-item"><input type="checkbox"> Isto važi i za Nikolu Stojanovića</div>
+        <div class="todo-item"><input type="checkbox"> Poslati na info@wolt.com i dragana.mihajlovic@wolt.com</div>
+        <div class="todo-item"><input type="checkbox"> Štampati broj na WOLT torbe</div>
+        <div class="todo-item"><input type="checkbox"> Proveriti da li je Ukrajinac sredio sa stranom firmom</div>
+        <div class="todo-item"><input type="checkbox"> Relja - čeka se završetak protesta</div>
+        <div class="todo-item"><input type="checkbox"> Ameri - tražiti update</div>
+        <div class="todo-item"><input type="checkbox"> Bicikli - tražiti update</div>
+        <div class="todo-item"><input type="checkbox"> Podsetnik: Ukrajinac - keš isplatiti</div>
+        <div class="todo-item"><input type="checkbox"> Poslati Stefanu Miro link</div>
+        <div class="todo-item"><input type="checkbox"> BG Delivery - Video edit</div>
+        <div class="todo-item"><input type="checkbox"> STIFI Ads</div>
+        <div class="todo-item"><input type="checkbox"> STIFI Kampanja - Reklama</div>
+        <div class="todo-item"><input type="checkbox"> Mark Manson knjige - Ova se Stefanu najviše dopada</div>
+    </div>
+</body>
+</html>
